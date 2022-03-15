@@ -84,7 +84,7 @@ border-radius: 0.5rem;
     font-size: 1.5rem;
 }
 .contenedor__staff{
-     
+    background-color: none;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -92,20 +92,31 @@ border-radius: 0.5rem;
     padding-bottom: 8rem;
 }
 
-}
-.card img{
+.contenedor__staff img{
     opacity: 0.6;
     transition: all 1s;
-    width: 1rem;
-}
-.card:hover{
-    opacity: 1;
-}
-.card img{
     width: 15rem;
 }
-.descripcion h3, p{
+
+.contenedor__staff img:hover{
+    opacity: 1;
+}
+
+.contenedor__staff img{
+    width: 13rem;
+}
+
+
+.contenedor__staff .descripcion h3, p{
+    margin: 0.5rem;
     color: white;
     font-size: small;
     text-align: center;
 }
+
+@media only screen and (max-width: 500px) and (min-width: 341px){
+    .contenedor__staff{
+        display: none;
+        
+    }
+} 
