@@ -61,3 +61,51 @@ border-radius: 0.5rem;
     background-color: rgba(124, 138, 90, 0.473);
     border-radius: 0.5rem;
 }
+
+.proyectos{
+    text-align: center;
+}
+
+.carrusel{
+    padding: 3rem;
+}
+
+.staff__titulo{
+    display: flex;
+    flex-direction: column;
+}
+.staff__titulo h2{
+    margin: 0.3rem;
+    text-align: center;
+    padding: 0.5rem;
+    background-color: rgba(124, 138, 90, 0.473);
+    border-radius: 0.5rem;
+    color: white;
+    font-size: 1.5rem;
+}
+.contenedor__staff{
+     
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 5rem;
+    padding-bottom: 8rem;
+}
+
+}
+.card img{
+    opacity: 0.6;
+    transition: all 1s;
+    width: 1rem;
+}
+.card:hover{
+    opacity: 1;
+}
+.card img{
+    width: 15rem;
+}
+.descripcion h3, p{
+    color: white;
+    font-size: small;
+    text-align: center;
+}
