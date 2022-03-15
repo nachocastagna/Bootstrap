@@ -95,7 +95,7 @@ border-radius: 0.5rem;
 .contenedor__staff img{
     opacity: 0.6;
     transition: all 1s;
-    width: 15rem;
+    
 }
 
 .contenedor__staff img:hover{
@@ -114,11 +114,18 @@ border-radius: 0.5rem;
     text-align: center;
 }
 
-@media only screen and (max-width: 500px) and (min-width: 341px){
+@media only screen and (max-width: 500px){
     
-    .contenedor__staff{
-        display: none;
-        
+    .contenedor__staff img{
+        opacity: 0.6;
+        transition: all 1s;
+        width: 8rem;
+    }
+    .contenedor__staff .descripcion h3, p{
+        margin: 0.5rem;
+        color: white;
+        font-size: 0.5rem;
+        text-align: center;
     }
 } 
 
