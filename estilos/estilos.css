@@ -91,12 +91,7 @@ border-radius: 0.5rem;
     background-color: rgba(78, 70, 70, 0.295) ;
     border-radius: 0.5rem;
 }
-/* 
-.card:hover{
-    opacity: 1;
-    transition: all 1s;
-    
-} */
+
 .card-title{
     text-align: center;
 }
@@ -107,10 +102,8 @@ border-radius: 0.5rem;
     border-color:rgba(124, 138, 90, 0.473);
 }
 
-@media only screen and (max-width: 300px){
-    .card{
-        width: 6rem;
-    }
+@media only screen and (max-width: 360px){
+    
 }
 
 /* ACA COMIENZA STAFF SIN CARD - EN INDEX */
@@ -226,6 +219,30 @@ border-radius: 0.5rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
 }
+@media screen and (max-width: 360px){
+    .datos-form{
+        background: rgb(207, 204, 204);
+        width: 70%;
+        padding: 5px;
+        border-radius: 5px;
+        margin-bottom: 16px;
+        border: solid 1px black;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .contenedor-form{
+        padding: 50px;
+        margin: auto;
+        width: 300px;
+        background-color: rgba(83, 30, 30, 0.63);
+        border-radius: 5px;
+        color: white;
+    }
+    .datos-form{
+        background: rgb(207, 204, 204);
+        width: 100%;
+       
+    }
+}
 
 ::placeholder{
     color: rgba(116, 70, 70, 0.63);
@@ -259,11 +276,13 @@ border-radius: 0.5rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-@media screen and (max-width: 675px){
+@media screen and (max-width: 350px){
     .descripcion-logo h3{
         font-size:x-small;
+        
     }
     .redes{
         display: flex;
         justify-content: center;
-    }}
+    }
+}
