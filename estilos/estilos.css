@@ -70,6 +70,50 @@ border-radius: 0.5rem;
     padding: 3rem;
 }
 
+/* ACA COMIENZA STAFF CON CARDS */
+.text-center{
+    margin: 0.3rem;
+    text-align: center;
+    padding: 0.5rem;
+    background-color: rgba(124, 138, 90, 0.473);
+    border-radius: 0.5rem;
+    color: white;
+    font-size: 1.5rem;
+}
+.texto-staff p{
+    color: rgb(161, 158, 158);
+    padding: 1rem;
+    text-align: center;
+    
+}
+.card{
+    margin: 5px;
+    background-color: rgba(78, 70, 70, 0.295) ;
+    border-radius: 0.5rem;
+}
+/* 
+.card:hover{
+    opacity: 1;
+    transition: all 1s;
+    
+} */
+.card-title{
+    text-align: center;
+}
+
+.btn-card {
+    color:rgb(161, 158, 158);
+    background-color:rgba(124, 138, 90, 0.473);
+    border-color:rgba(124, 138, 90, 0.473);
+}
+
+@media only screen and (max-width: 300px){
+    .card{
+        width: 6rem;
+    }
+}
+
+/* ACA COMIENZA STAFF SIN CARD - EN INDEX */
 .staff__titulo{
     display: flex;
     flex-direction: column;
@@ -189,11 +233,9 @@ border-radius: 0.5rem;
 
 .redes{
     display: flex;
+    justify-content: center;
     background-color: rgba(31, 29, 29, 0.26);
-    border-style: solid;
-    border-color: rgba(124, 138, 90, 0.473);
-    border-width: 1px;
-   
+    
 }
 .iconos img{
     width: 2rem;
@@ -219,7 +261,7 @@ border-radius: 0.5rem;
 
 @media screen and (max-width: 675px){
     .descripcion-logo h3{
-        display: none;
+        font-size:x-small;
     }
     .redes{
         display: flex;
