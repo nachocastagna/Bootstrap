@@ -44,14 +44,83 @@ font-size: 1.5rem;
 
 .equipos__titulo h2{
     margin: 0.3rem;
-text-align: center;
-padding: 0.5rem;
-background-color: rgba(124, 138, 90, 0.473);
-border-radius: 0.5rem;
+    text-align: center;
+    padding: 0.5rem;
+    background-color: rgba(124, 138, 90, 0.473);
+    border-radius: 0.5rem;
 }
 .row{
     color: white;
-    padding: 3rem;
+    padding: 7rem;
+}
+
+.body__equipos{
+    background-image: none;
+    
+}
+
+.equipos__titulo__seccion{
+    background-color: rgba(243, 61, 61, 0.247) ;
+    width: 100%;
+    top: 0;
+    left: -1000%;
+    height: 10rem;
+    
+   
+}
+.__titulo__seccion{
+    font-size: 5rem;
+    margin-left: 2rem;
+    color: rgb(247, 214, 214);
+
+}
+
+.box__titulo__poranalistas{
+    width: 100%;
+    top: 0;
+    left: -1000%;
+    margin-bottom: 2rem;
+}
+.__titulo__poranalistas{
+    text-align: center;
+    margin-top: 2rem;
+    color: white;
+}
+
+.conteiner__equipos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 4rem;
+    
+}
+
+@media only screen and (max-width: 500px){
+    .equipos__titulo__seccion{
+        background-color: rgba(243, 61, 61, 0.247) ;
+        width: 100%;
+        top: 0;
+        left: -1000%;
+        height: 3rem;
+}
+    .__titulo__poranalistas{
+        font-size: small;
+        text-align: center;
+        margin-top: 2rem;
+        color: white;
+    }
+
+    .__titulo__seccion{
+        font-size: 2rem;
+        margin: auto;
+        color: rgb(247, 214, 214);
+    
+    }
+    .card__equipos{
+        display:inline-block
+      
+    }
+   
 }
 
 .proyectos__titulo h2{
@@ -252,21 +321,21 @@ border-radius: 0.5rem;
     display: flex;
     justify-content: center;
     background-color: rgba(31, 29, 29, 0.26);
+    width: 100%;
     
 }
-.iconos img{
-    width: 2rem;
+.bi{
     opacity: 0.5;
+    color:white;
 }
-.iconos img:hover{
+.bi:hover{
     opacity: 1;
     transition: 0.5s;
 }
 .iconos{
     margin: 15px;
     display: flex;
-    justify-content: left;
-    gap: 0.5rem;
+    
 }
 .descripcion-logo h3{
     color: rgb(245, 240, 240);
@@ -276,18 +345,17 @@ border-radius: 0.5rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-@media screen and (max-width: 360px){
+@media screen and (max-width: 720px){
     .descripcion-logo h3{
         font-size:x-small;
         
     }
-    .descripcion-logo__home{
-        display: none;
-
-    }
+    
     .redes{
-        display: flex;
-        
-        justify-content: center;
+        display: inline-block;
+              
+    }
+    .iconos{
+        align-items: center;
     }
 }
