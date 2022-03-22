@@ -54,19 +54,12 @@ font-size: 1.5rem;
     padding: 7rem;
 }
 
-.body__equipos{
-    background-image: none;
-    
-}
-
 .equipos__titulo__seccion{
     background-color: rgba(243, 61, 61, 0.247) ;
     width: 100%;
     top: 0;
     left: -1000%;
     height: 10rem;
-    
-   
 }
 .__titulo__seccion{
     font-size: 5rem;
@@ -82,8 +75,12 @@ font-size: 1.5rem;
     margin-bottom: 2rem;
 }
 .__titulo__poranalistas{
-    text-align: center;
+    /* text-align: center;
     margin-top: 2rem;
+    color: white; */
+    text-align: center;
+    padding: 0.5rem;
+    background-color: rgba(124, 138, 90, 0.473);
     color: white;
 }
 
@@ -94,6 +91,21 @@ font-size: 1.5rem;
     padding-bottom: 4rem;
     
 }
+.trabajan__con__nosotros{
+    width: 100%;
+    background-image: url(../imagenes/fondo-equipo.png);
+}
+.titulo__trabajan{
+    text-align: center;
+    padding: 0.5rem;
+    background-color: rgba(124, 138, 90, 0.473);
+    color: white;
+    margin-bottom: 3rem;
+}
+.carousel-item{
+    opacity: 0.7;
+}
+
 
 @media only screen and (max-width: 500px){
     .equipos__titulo__seccion{
@@ -109,6 +121,12 @@ font-size: 1.5rem;
         margin-top: 2rem;
         color: white;
     }
+    .titulo__trabajan{
+        font-size: small;
+        text-align: center;
+        margin-top: 2rem;
+        color: white;
+}
 
     .__titulo__seccion{
         font-size: 2rem;
@@ -120,7 +138,9 @@ font-size: 1.5rem;
         display:inline-block
       
     }
-   
+    .carousel-item{
+        width: auto ;
+    }
 }
 
 .proyectos__titulo h2{
@@ -139,15 +159,49 @@ font-size: 1.5rem;
     padding: 3rem;
 }
 
+.proyectos__titulo__seccion{
+    background-color: rgba(243, 61, 61, 0.247) ;
+    width: 100%;
+    top: 0;
+    left: -1000%;
+    height: 10rem;
+}
+.titulo__proyectos{
+    font-size: 5rem;
+    margin-left: 2rem;
+    text-align: left;
+    color: rgb(247, 214, 214);
+
+}
+
+@media only screen and (max-width: 500px){.proyectos__titulo__seccion{
+    background-color: rgba(243, 61, 61, 0.247) ;
+    width: 100%;
+    top: 0;
+    left: -1000%;
+    height: 3rem;
+}
+    .titulo__proyectos{
+        font-size: 2rem;
+        margin: auto;
+        color: rgb(247, 214, 214);
+    }
+
+}
+
 /* ACA COMIENZA STAFF CON CARDS */
-.text-center{
-    margin: 0.3rem;
-    text-align: center;
-    padding: 0.5rem;
-    background-color: rgba(124, 138, 90, 0.473);
-    border-radius: 0.5rem;
-    color: white;
-    font-size: 1.5rem;
+.staff__titulo__seccion{
+    background-color: rgba(243, 61, 61, 0.247) ;
+    width: 100%;
+    top: 0;
+    left: -1000%;
+    height: 10rem;
+}
+
+.titulo__staff{
+    font-size: 5rem;
+    margin-left: 2rem;
+    color: rgb(247, 214, 214);
 }
 .texto-staff p{
     color: rgb(161, 158, 158);
@@ -171,7 +225,20 @@ font-size: 1.5rem;
     border-color:rgba(124, 138, 90, 0.473);
 }
 
-@media only screen and (max-width: 360px){
+
+@media only screen and (max-width: 500px){.staff__titulo__seccion{
+    background-color: rgba(243, 61, 61, 0.247) ;
+    width: 100%;
+    top: 0;
+    left: -1000%;
+    height: 3rem;
+}
+.titulo__staff{
+    font-size: 2rem;
+    margin: auto;
+    color: rgb(247, 214, 214);
+
+}
     
 }
 
@@ -288,7 +355,7 @@ font-size: 1.5rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
 }
-@media screen and (max-width: 360px){
+@media screen and (max-width: 500px){
     .datos-form{
         background: rgb(207, 204, 204);
         width: 70%;
