@@ -5,32 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./estilos/estilos.css">
     <title>DataSports</title>
 </head>
-<header>
+<header >
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div  class="container-fluid">
           <a class="navbar-brand" href="./index.html">DataSports</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#" >Equipo</a>
+                <a class="nav-link active" aria-current="page" href="./html/equipos.html" >Equipos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Proyecto</a>
+                <a class="nav-link active" aria-current="page" href="./html/proyectos.html">Proyectos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Staff</a>
+                <a class="nav-link active" aria-current="page" href="./html/staff.html">Staff</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Contacto</a>
+                <a class="nav-link active" aria-current="page" href="./html/contacto.html">Contacto</a>
               </li>
             </ul>
           </div>
@@ -42,12 +43,12 @@
         <div class="quienes-somos">
             <h2 class="__titulo">¿Quienes Somos?</h2>
         </div>
-           
+
             <div class="parrafo">
                 <p>En DataSports somos expertos en datos y análisis en fútbol. Desarrollamos y recogemos nuestros propios datos porque somos conscientes de que se puede hacer mejor que las alternativas en el mercado. Nuestros datos exclusivos son más precisos y combinados con las soluciones analíticas más sofisticadas proporcionan una ventaja competitiva a equipos y empresas de diferentes ámbitos</p>
             </div>
     </main>
-<section class="equipos">
+<section id="equipos" class="equipos">
     <div class="equipos__titulo">
         <h2 class="__titulo" >Equipos</h2>
     </div>
@@ -66,7 +67,7 @@
                 <li>Identificar los jugadores y combinaciones claves
                 </li>
                 <li>Acciones a balón parado al detalle</li>
-                
+
             </ul>
         </div>
         <div class="col-xs-12 col-sm-12 col-lg-4">
@@ -75,27 +76,129 @@
                 <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, quas?
                 </li>
                 <li>Lorem ipsum dolor sit amet.</li>
-                
+
             </ul>
         </div>
     </div>
 </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<section class="proyectos">
+  <div class="proyectos__titulo">
+    <h2 class="__titulo">
+      Proyectos
+    </h2>
+  </div>
+  <div class="carrusel">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/0FfTcBjHPFs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="carousel-item">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/0FfTcBjHPFs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="carousel-item">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/0FfTcBjHPFs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+</section>
+<section class="staff">  
+<div id="staff" class="staff__titulo"> 
+  <h2>Staff</h2>
+  <div class="contenedor__staff">
     
+        <div>
+            <img src="./imagenes/medico.png" alt="renzi">
+            <div class="descripcion">
+                <h3>Pablo Renzi</h3>
+                <p >Coordinador Analisis</p>
+        </div>
+    </div>
+  
+    <div>
+        <img src="./imagenes/entrenador-arqueros.png" alt="irusta">
+        <div class="descripcion">
+            <h3>Mono Irusta</h3>
+            <p>Analisis Datos</p>
+        </div>
+    </div>
+  
+    <div>
+        <img src="./imagenes/pf.png" alt="audano">
+        <div class="descripcion">
+            <h3>Martin Audano</h3>
+            <p>Analisis Videos</p>
+        </div>
+    </div>
+  
+    <div>
+        <img src="./imagenes/analisis.png" alt="analista">
+        <div class="descripcion">
+            <h3>Ignacio Castagna</h3>
+            <p>Analisis Videos</p>
+        </div>
+    </div>
+  </div>
+</section>
+<section id="contacto" class="contacto">
+  <h1 >Contacto</h1>
+  <div class="espacio-contenedor">
+  <div class="contenedor-form">
+      <h3>Formulario de contacto</h3>
+
+  <form action=""> 
+      <input class="datos-form"  type="text" name="nombres" id="" placeholder="Nombre y apellido">
+
+      <input class="datos-form" type="email" name="email" id="" placeholder="Correo electronico">
+
+      <input class="datos-form" type="tel" name="telefono" id="" placeholder="Telefono de contacto">
+
+      <input class="boton" type="submit" value="Enviar">
+ </div>
+</div>
+</form>   
+</section>
+
+<footer class="redes">
+  <div class="iconos">
+      <a href="https://www.facebook.com"><i class="bi bi-facebook fs-3"></i></a>
+    <div class="descripcion-logo">
+        <h3>/DataSports</h3>
+    </div>
+  </div>
+  <div class="iconos">
+      <a href="https://www.instagram.com/?hl=es-la"><i class="bi bi-instagram fs-3"></i></a>
+      <div class="descripcion-logo">
+          <h3>/DataSports</h3>
+      </div>
+  </div>
+  <div class="iconos">
+      <a href="https://www.whatsapp.com/?lang=es"><i class="bi bi-whatsapp fs-3"></i></a>
+      <div class="descripcion-logo">
+          <h3>+543513372888</h3>
+      </div>
+  </div>
+  <div class="iconos">
+      <a href="../index.html"><i class="bi bi-house-fill fs-3"></i></a>
+      <div class="descripcion-logo">
+          <h3>HOME</h3>
+      </div>
+   </div>
+</footer>
+
+
+
+
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </body>
 </html>
